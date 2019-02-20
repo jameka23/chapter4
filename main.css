@@ -1,0 +1,28 @@
+body {
+    background-color: yellowgreen;
+}
+#candidate-profile {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+
+
+.header {
+    color: orangered;
+}
+
+.image {
+    border: 2px solid black;
+}
+
+.committee-section {
+    border: 2px black solid;
+    float: left;
+    width: 50%;
+}
+
+.legislation-section {
+    border: 2px black solid;
+    float: right;
+    width: 50%;
+}
