@@ -1,28 +1,48 @@
 body {
-    background-color: yellowgreen;
+    background-color: green;
 }
 #candidate-profile {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
 }
 
+.basic-info {
+    padding: 0% 0% 0% 40%;
+    border: 2px solid red;
+}
 
+.header--xxl-xlarge {
+    color: blue;
+}
 
 .header {
-    color: orangered;
+    text-align: center;
 }
 
 .image {
     border: 2px solid black;
+
 }
 
+.committe-leg-div {
+    display: flex;
+
+}
 .committee-section {
     border: 2px black solid;
-    float: left;
-    width: 50%;
+    flex: 1;
+    /* float: left; */
+    /* width: 50%; */
+    border-radius: 14%;
+    padding: 1%;
+    background-color: purple;
 }
 
 .legislation-section {
     border: 2px black solid;
-    float: right;
-    width: 50%;
+    flex: 1;
+    /* float: right; */
+    /* width: 50%; */
+    border-radius: 14%;
+    padding: 1%;
+    background-color: yellow;
 }
